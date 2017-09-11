@@ -1,0 +1,29 @@
+{
+  "name": "botserver",
+  "main": "server.js",
+  "dependencies": {
+    "apiai": "^1.0.7",
+    "body-parser": "~1.01",
+    "botkit": "0.0.7",
+    "express": "~4.0.0",
+    "mongoose": ">=4.1.11",
+    "natural": "^0.2.1",
+    "watson-developer-cloud": "1.2.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "##Summary: Botserver is a back end API that can be used to deploy and host different types of chatbots on Slack. It is built on Node.js and MongoDB. So far, the app can deploy three different kinds of bots: ToneBot, FAQbot, and InfoBot.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianomchugh/BotServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianomchugh/BotServer/issues"
+  },
+  "homepage": "https://github.com/brianomchugh/BotServer#readme",
+  "devDependencies": {}
+}
